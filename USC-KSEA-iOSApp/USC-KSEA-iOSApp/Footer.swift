@@ -11,7 +11,7 @@ struct Footer: View {
     @Binding var selectedTab: Tab
     var body: some View {
         GeometryReader { geometry in
-                
+            
             
             VStack(spacing: 0) {
                 Spacer()
@@ -26,10 +26,48 @@ struct Footer: View {
                         .frame(height: geometry.size.height * 0.1)
                     HStack {
                         Button {
-                            selectedTab = .ContentView
+                            selectedTab = .HomeView
                         } label: {
-                            Image(selectedTab == .ContentView ? "home-g" : "home-w")
+                            Image(selectedTab == .HomeView ? "home-g" : "home-w")
                         }
+                        Divider()
+                            .frame(width: 1.5, height: 30)
+                            .background(Color.white)
+                            .padding(.horizontal, geometry.size.width * 0.03)
+                        
+                        Button {
+                            selectedTab = .AboutUsView
+                        } label: {
+                            Image(selectedTab == .AboutUsView ? "help-g" : "help-w")
+                        }
+                        Divider()
+                            .frame(width: 1.5, height: 30)
+                            .background(Color.white)
+                            .padding(.horizontal, geometry.size.width * 0.03)
+                        Button {
+                            selectedTab = .EBoardView
+                        } label: {
+                            Image(selectedTab == .EBoardView ? "profile-g" : "profile-w")
+                        }
+                        Divider()
+                            .frame(width: 1.5, height: 30)
+                            .background(Color.white)
+                            .padding(.horizontal, geometry.size.width * 0.03)
+                        Button {
+                            selectedTab = .GalleryView
+                        } label: {
+                            Image(selectedTab == .GalleryView ? "picture-g" : "picture-w")
+                        }
+                        Divider()
+                            .frame(width: 1.5, height: 30)
+                            .background(Color.white)
+                            .padding(.horizontal, geometry.size.width * 0.03)
+                        Button {
+                            selectedTab = .ContactUsView
+                        } label: {
+                            Image(selectedTab == .ContactUsView ? "email-g" : "email-w")
+                        }
+
                     }// HStack
                     
                 } // ZStack
@@ -40,9 +78,9 @@ struct Footer: View {
 }
 
 #Preview {
-    Footer(selectedTab: .constant(.ContentView))
+    Footer(selectedTab: .constant(.HomeView))
 }
 
 enum Tab {
-    case ContentView
+    case HomeView, GalleryView, ContactUsView, EBoardView, AboutUsView
 }

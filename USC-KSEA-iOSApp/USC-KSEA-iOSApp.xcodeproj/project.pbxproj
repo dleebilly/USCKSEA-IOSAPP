@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AC23D07D2CA6C75E00EC990F /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23D07C2CA6C75E00EC990F /* Footer.swift */; };
-		AC23D07F2CA6C91400EC990F /* IMG_2038.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC23D07E2CA6C91400EC990F /* IMG_2038.jpeg */; };
+		AC23D0812CA6D6F900EC990F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23D0802CA6D6F900EC990F /* HomeView.swift */; };
+		AC23D0832CA6D71700EC990F /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23D0822CA6D71700EC990F /* GalleryView.swift */; };
+		AC23D0852CA6D72F00EC990F /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23D0842CA6D72F00EC990F /* ContactUsView.swift */; };
+		AC23D0872CA6D73C00EC990F /* EBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23D0862CA6D73C00EC990F /* EBoardView.swift */; };
+		AC23D0892CA6D76700EC990F /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23D0882CA6D76700EC990F /* AboutUsView.swift */; };
 		AC9B46342CA655100064719B /* USC_KSEA_iOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B46332CA655100064719B /* USC_KSEA_iOSAppApp.swift */; };
 		AC9B46362CA655100064719B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B46352CA655100064719B /* ContentView.swift */; };
 		AC9B46382CA655110064719B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9B46372CA655110064719B /* Assets.xcassets */; };
@@ -37,7 +41,11 @@
 
 /* Begin PBXFileReference section */
 		AC23D07C2CA6C75E00EC990F /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
-		AC23D07E2CA6C91400EC990F /* IMG_2038.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_2038.jpeg; path = "../../../../../Spring 2024/KSEA/New Clone/USC-KSEA-iOSApp/USC-KSEA-iOSApp/Assets.xcassets/IMG_2038.imageset/IMG_2038.jpeg"; sourceTree = "<group>"; };
+		AC23D0802CA6D6F900EC990F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC23D0822CA6D71700EC990F /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		AC23D0842CA6D72F00EC990F /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		AC23D0862CA6D73C00EC990F /* EBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBoardView.swift; sourceTree = "<group>"; };
+		AC23D0882CA6D76700EC990F /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
 		AC9B46302CA655100064719B /* USC-KSEA-iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USC-KSEA-iOSApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9B46332CA655100064719B /* USC_KSEA_iOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USC_KSEA_iOSAppApp.swift; sourceTree = "<group>"; };
 		AC9B46352CA655100064719B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,10 +107,14 @@
 		AC9B46322CA655100064719B /* USC-KSEA-iOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC23D0802CA6D6F900EC990F /* HomeView.swift */,
+				AC23D0822CA6D71700EC990F /* GalleryView.swift */,
+				AC23D0842CA6D72F00EC990F /* ContactUsView.swift */,
+				AC23D0882CA6D76700EC990F /* AboutUsView.swift */,
+				AC23D0862CA6D73C00EC990F /* EBoardView.swift */,
 				AC23D07C2CA6C75E00EC990F /* Footer.swift */,
 				AC9B46332CA655100064719B /* USC_KSEA_iOSAppApp.swift */,
 				AC9B46352CA655100064719B /* ContentView.swift */,
-				AC23D07E2CA6C91400EC990F /* IMG_2038.jpeg */,
 				AC9B46372CA655110064719B /* Assets.xcassets */,
 				AC9B46392CA655110064719B /* USC_KSEA_iOSApp.entitlements */,
 				AC9B463A2CA655110064719B /* Preview Content */,
@@ -239,7 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC23D07F2CA6C91400EC990F /* IMG_2038.jpeg in Resources */,
 				AC9B463C2CA655110064719B /* Preview Assets.xcassets in Resources */,
 				AC9B46382CA655110064719B /* Assets.xcassets in Resources */,
 			);
@@ -267,8 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC23D07D2CA6C75E00EC990F /* Footer.swift in Sources */,
+				AC23D0812CA6D6F900EC990F /* HomeView.swift in Sources */,
+				AC23D0892CA6D76700EC990F /* AboutUsView.swift in Sources */,
 				AC9B46362CA655100064719B /* ContentView.swift in Sources */,
+				AC23D0872CA6D73C00EC990F /* EBoardView.swift in Sources */,
 				AC9B46342CA655100064719B /* USC_KSEA_iOSAppApp.swift in Sources */,
+				AC23D0832CA6D71700EC990F /* GalleryView.swift in Sources */,
+				AC23D0852CA6D72F00EC990F /* ContactUsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
