@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var selectedTab: Tab = .ContentView
+    @State private var selectedTab: Tab = .HomeView
     
     var body: some View {
         GeometryReader{geometry in
@@ -45,9 +45,26 @@ struct ContentView: View {
                         .foregroundColor(Color(red:1, green: 0.78, blue: 0.17))
                         .bold()
                         .padding(.top, 0)
-                    Spacer()
-                }
+                    Spacer().frame(height: 15)
+                    
+                    
+                    switch selectedTab {
+                    case .HomeView:
+                        HomeView()
+                    case .AboutUsView:
+                        AboutUsView()
+                    case .EBoardView:
+                        EBoardView()
+                    case .ContactUsView:
+                        ContactUsView()
+                    case .GalleryView:
+                        GalleryView()
+                    }
+                    
+                } // VStack
                 .edgesIgnoringSafeArea(.top)
+
+                
                 
                 
             } // ZStack
