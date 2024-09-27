@@ -47,13 +47,10 @@ struct HomeView: View {
                                 }
                             }
                         } // VStack
-                        
                             .padding(.top, 20)
                             ,alignment: .top
                     ) // Overlay
-                
-                    
-            }
+            } // ZStack
         }
     }
 }
