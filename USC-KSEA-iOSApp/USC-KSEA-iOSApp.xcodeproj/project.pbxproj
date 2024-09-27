@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC23D07D2CA6C75E00EC990F /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23D07C2CA6C75E00EC990F /* Footer.swift */; };
+		AC23D07F2CA6C91400EC990F /* IMG_2038.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC23D07E2CA6C91400EC990F /* IMG_2038.jpeg */; };
 		AC9B46342CA655100064719B /* USC_KSEA_iOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B46332CA655100064719B /* USC_KSEA_iOSAppApp.swift */; };
 		AC9B46362CA655100064719B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B46352CA655100064719B /* ContentView.swift */; };
 		AC9B46382CA655110064719B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9B46372CA655110064719B /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC23D07C2CA6C75E00EC990F /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		AC23D07E2CA6C91400EC990F /* IMG_2038.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_2038.jpeg; path = "../../../../../Spring 2024/KSEA/New Clone/USC-KSEA-iOSApp/USC-KSEA-iOSApp/Assets.xcassets/IMG_2038.imageset/IMG_2038.jpeg"; sourceTree = "<group>"; };
 		AC9B46302CA655100064719B /* USC-KSEA-iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USC-KSEA-iOSApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9B46332CA655100064719B /* USC_KSEA_iOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USC_KSEA_iOSAppApp.swift; sourceTree = "<group>"; };
 		AC9B46352CA655100064719B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,8 +99,10 @@
 		AC9B46322CA655100064719B /* USC-KSEA-iOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC23D07C2CA6C75E00EC990F /* Footer.swift */,
 				AC9B46332CA655100064719B /* USC_KSEA_iOSAppApp.swift */,
 				AC9B46352CA655100064719B /* ContentView.swift */,
+				AC23D07E2CA6C91400EC990F /* IMG_2038.jpeg */,
 				AC9B46372CA655110064719B /* Assets.xcassets */,
 				AC9B46392CA655110064719B /* USC_KSEA_iOSApp.entitlements */,
 				AC9B463A2CA655110064719B /* Preview Content */,
@@ -233,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC23D07F2CA6C91400EC990F /* IMG_2038.jpeg in Resources */,
 				AC9B463C2CA655110064719B /* Preview Assets.xcassets in Resources */,
 				AC9B46382CA655110064719B /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC23D07D2CA6C75E00EC990F /* Footer.swift in Sources */,
 				AC9B46362CA655100064719B /* ContentView.swift in Sources */,
 				AC9B46342CA655100064719B /* USC_KSEA_iOSAppApp.swift in Sources */,
 			);
@@ -434,7 +442,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -442,7 +450,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "USCKSEA.USC-KSEA-iOSApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,7 +481,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -480,7 +489,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "USCKSEA.USC-KSEA-iOSApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
