@@ -34,7 +34,7 @@ struct ContentView: View {
                     Image("Sash Logo 1")
                         .padding(.top, 28)
                     
-                    Text("KSEA USC")
+                    Text("USC KSEA")
                         .font(Font.custom("Mont", size:30))
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
@@ -63,7 +63,7 @@ struct ContentView: View {
                     
                 } // VStack
                 .edgesIgnoringSafeArea(.top)
-
+                
                 
                 
                 
