@@ -156,12 +156,15 @@ struct AboutUsView: View {
                                     .font(.system(size: 14))
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.center)
-                                
-                            }
-                            
+                                Spacer()
                             } // VStack
-                            .padding(.top, 20)
-                            ,alignment: .top
+                            
+                            
+                        } // ScrollView
+                        .padding(.bottom, geometry.size.height * 0.22) // Adjust this to put content over the footer
+                        .padding(.top, 20)
+                        ,alignment: .top
+                            
                         
                     ) // Overlay
                     
